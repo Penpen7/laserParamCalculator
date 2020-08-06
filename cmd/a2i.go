@@ -8,7 +8,7 @@ import (
 )
 
 var a2iCmd = &cobra.Command{
-	Use:   "a2i",
+	Use:   "a",
 	Short: "規格化強度a0からレーザー強度I0を計算します",
 	Run: func(cmd *cobra.Command, args []string) {
 		if len(args) == 0 {

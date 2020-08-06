@@ -8,7 +8,7 @@ import (
 )
 
 var i2aCmd = &cobra.Command{
-	Use:   "i2a",
+	Use:   "i",
 	Short: "レーザー強度から規格化強度a0を計算します",
 	Run: func(cmd *cobra.Command, args []string) {
 		if len(args) == 0 {
