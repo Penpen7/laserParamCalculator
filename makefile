@@ -1,2 +1,2 @@
 all : main.go
-	go build -o cal -ldflags '-w -s -linkmode external -extldflags "-static-libgcc"' -a -v -trimpath
+	go build -o lcal -ldflags '-w -s -linkmode external -extldflags "-static-libgcc"' -a -v -trimpath
